@@ -1,0 +1,43 @@
+h1 {
+  background-color: blue;
+  color: solid white;
+}
+/*this is paragraph has yellow background, you need to change it to red"*/
+h3 {
+  background-color: yellow;
+}
+#featured-puppies {
+  background-color: pink;
+  width: 950px;
+  height:300px;
+  border: 1px solid white;
+
+
+
+}
+.puppy-one {
+  display: inline-flex;
+  width: 200px;
+  height:200px;
+  margin:50px 50px 0px 50px;
+  border: 5px solid white;
+  border-radius:100px;
+}
+
+.puppy-two {
+  display: inline-flex;
+  width: 200px;
+  height:200px;
+  margin:5px 50px 0px 50px;
+  border: 1px solid blue;
+  border-radius:100px;
+}
+.puppy-three {
+  display: inline-flex;
+  width: 200px;
+  height:200px;
+  margin:5px 50px 0px 50px;
+  border: 1px solid red;
+  border-radius:100px;
+
+}
