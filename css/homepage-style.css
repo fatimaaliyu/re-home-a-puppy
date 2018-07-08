@@ -4,7 +4,7 @@ h1 {
 }
 /*this is paragraph has yellow background, you need to change it to red"*/
 h3 {
-  background-color: yellow;
+  background-color: red;
 }
 #featured-puppies {
   background-color: pink;
