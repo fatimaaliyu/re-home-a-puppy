@@ -1,33 +1,33 @@
-/* I can't seem to get the h1 and h3 to turn navy without this???*/
+
 * {
   color: navy;
+} /* I can't seem to get the h1 and h3 to turn navy without this???*/
 
 p,
-li, {
-  color: navy;
+li{
   font-size: 18;
 }
 
-#jumbotron{
+.jumbotron{
   background-size: cover;
-  min-height: 600px;
+  min-height: 300px;
 }
 
 #section-2{
-  min-height: 600px;
+  min-height: 300px;
 }
 
-.featured-puppies{
+#featured-puppies{
   background-color: rgb(211,211,211);
   min-height:500px;
 }
 
 #menu-buttons .btn{
-color: white;
 background-color: navy
+color: white;
 }
 
 .btn{
-color:white;
 background-color: navy;
+color:white;
 }
