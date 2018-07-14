@@ -1,43 +1,38 @@
+/* I can't seem to get the h1 and h3 to turn navy without this???*/
+* {
+  color: navy;
+  
 h1 {
   background-color: blue;
   color: solid white;
 }
-/*this is paragraph has yellow background, you need to change it to red"*/
-h3 {
-  background-color: red;
-}
-#featured-puppies {
-  background-color: pink;
-  width: 950px;
-  height:300px;
-  border: 1px solid white;
 
-
-
-}
-.puppy-one {
-  display: inline-flex;
-  width: 200px;
-  height:200px;
-  margin:50px 50px 0px 50px;
-  border: 5px solid white;
-  border-radius:100px;
+p,
+li {
+  color: navy;
+  font-size: 18;
 }
 
-.puppy-two {
-  display: inline-flex;
-  width: 200px;
-  height:200px;
-  margin:5px 50px 0px 50px;
-  border: 1px solid blue;
-  border-radius:100px;
+#jumbotron{
+  background-size: cover;
+  min-height: 400px;
 }
-.puppy-three {
-  display: inline-flex;
-  width: 200px;
-  height:200px;
-  margin:5px 50px 0px 50px;
-  border: 1px solid red;
-  border-radius:100px;
 
+#section-2{
+  min-height: 300px;
+}
+
+#featured-puppies{
+  background-color: rgb(211,211,211);
+  min-height:500px;
+}
+
+#menu-buttons .btn{
+color:white;
+background-color: navy;
+}
+
+.btn{
+color:white;
+background-color: navy;
 }
