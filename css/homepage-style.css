@@ -1,7 +1,10 @@
-
 /* I can't seem to get the h1 and h3 to turn navy without this???*/
 * {
   color: navy;
+  
+h1 {
+  background-color: blue;
+  color: solid white;
 }
 
 p,
