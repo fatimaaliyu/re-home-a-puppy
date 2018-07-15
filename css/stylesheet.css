@@ -1,0 +1,29 @@
+h2 {
+  text-align: left;
+  margin: 0px 0 70px 0px;
+  color:blue;
+}
+
+.container {
+  display: grid;
+  background: navy blue;
+}
+
+.container .div:nth-child(odd){
+  background-color:
+}
+.Leyla-profile{
+  position:absolute;
+  height:500px;
+  width:500px;
+}
+/* checking to see if bootsrap works*/
+.table{
+  height: 500px;
+  width:inherit;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3271e7;
+  color: white;
+}
