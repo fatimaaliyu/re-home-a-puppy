@@ -3,7 +3,7 @@ h2 {
   margin: 0px 0 70px 0px;
   color:blue;
 }
-
+/* trying grid containers
 .container {
   display: grid;
   background: navy blue;
@@ -13,14 +13,17 @@ h2 {
   background-color:
 }
 
+--checking to see if bootsrap works*/
 
-/* checking to see if bootsrap works*/
 .table{
   height: 400px;
-  width:inherit;
+  width:400px;
   padding: 15px;
   text-align: left;
   background-color: #3271e7;
   color: white;
 
+}
+.jumbotron {
+  background-color: 
 }
