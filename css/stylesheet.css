@@ -8,16 +8,14 @@ h2 {
   display: grid;
   background: navy blue;
 }
-
 .container .div:nth-child(odd){
   background-color:
 }
-
 --checking to see if bootsrap works*/
 
 .table{
   height: 400px;
-  width:400px;
+  width:500px;
   padding: 15px;
   text-align: left;
   background-color: #3271e7;
@@ -25,5 +23,5 @@ h2 {
 
 }
 .jumbotron {
-  background-color: 
+  background-color:
 }
