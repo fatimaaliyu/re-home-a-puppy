@@ -3,25 +3,28 @@ h2 {
   margin: 0px 0 70px 0px;
   color:blue;
 }
-/* trying grid containers
+
 .container {
   display: grid;
   background: navy blue;
 }
+
 .container .div:nth-child(odd){
   background-color:
 }
---checking to see if bootsrap works*/
+.Leyla-profile{
+  position:absolute;
+  height:500px;
+  width:500px;
+}
 
 .table{
   height: 400px;
   width:500px;
-  padding: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   text-align: left;
-  background-color: #3271e7;
   color: white;
+  background-color: #3271e7;
 
-}
-.jumbotron {
-  background-color:
 }
