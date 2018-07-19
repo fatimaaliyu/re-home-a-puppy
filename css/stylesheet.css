@@ -12,15 +12,19 @@ h2 {
 .container .div:nth-child(odd){
   background-color:
 }
+.Leyla-profile{
+  position:absolute;
+  height:500px;
+  width:500px;
+}
 
-
-/* checking to see if bootsrap works*/
 .table{
   height: 400px;
-  width:inherit;
-  padding: 15px;
+  width:500px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   text-align: left;
-  background-color: #3271e7;
   color: white;
+  background-color: #3271e7;
 
 }
