@@ -3,9 +3,19 @@
   <head>
     <title>Re-home a puppy homepage</title>
      <link href="css/bootstrap.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--carousel navigation-->
      <link rel="stylesheet" type="text/css" href="css/custom.css">
      <meta name="viewport" content="width=device-width, initial scale=1">
+
+     <style>
+         .carousel-inner > .item > img,
+         .carousel-inner > .item > a > img {
+             width: 30%;
+             margin: auto;
+         }
+     </style>
    </head>
+
 
   <body>
     <div class="jumbotron">
@@ -57,28 +67,71 @@
     </div> <!-- .section-2 -->
     </div> <!-- .container -->
 
-    <div id= "featured-puppies" class="text-center">
-    <div class="container">
-      <h2>Featured Puppies</h2>
-        <div class="row">
-          <div class="col-sm-4">
-            <img class= "img-thumbnail" class="img-responsive" src='photos/Leyla.png'>
-            <p>Leyla - 3 month old collie </p>
-            <button class='btn btn-lg btn'>Find out more</button>
-          </div>
-            <div class="col-sm-4">
-            <img class= "img-thumbnail" class="img-responsive" src='photos/Jack.png'>
-            <p>Jack - 4 month old Bichon Frise</p>
-            <button class='btn btn-lg btn'>Find out more</button>
-          </div>
-          <div class="col-sm-4">
-            <img class= "img-thumbnail" class="img-responsive" src='photos/Basil.png'>
-            <p>Basil - 2 month old Chihuahua</p>
-            <button class='btn btn-lg btn'>Find out more</button>
-          </div>
-    </div> <!-- .row -->
-    </div> <!-- .container -->
-    </div> <!-- .featured-puppies -->
+    <!--carausel begins-->
+    <div id="featured-puppy" class="container-fluid">
+      <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active">
+            <img class= "img-thumbnail" class="img-responsive"
+            src='photos/Leyla.png' width="260" height="145">
+            <div class="carousel-caption">
+              <h3>Layla</h3>
+              <p>3 month old Collie</p>
+              <button class='btn btn-lg btn'>Find out more</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class= "img-thumbnail" class="img-responsive"
+            src='photos/Jack.png' width="260" height="145">
+            <div class="carousel-caption">
+              <h2>Jack</h2>
+              <p>4 month old Bichon Frise</p>
+              <button class='btn btn-lg btn'>Find out more</button>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class= "img-thumbnail" class="img-responsive" src='photos/Basil.png'
+            width="260" height="145">
+            <div class="carousel-caption">
+              <h3>Jack</h3>
+              <p>2 month old Chihuahua</p>
+              <button class='btn btn-lg btn'>Find out more</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div><!--myCarousel-->
+    </div><!--container-->
+    <!--carousel ends-->
+    <div>
+      <!--footer needs to go in here-->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
   </body>
 </html>
