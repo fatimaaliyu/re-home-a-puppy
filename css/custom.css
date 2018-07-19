@@ -1,7 +1,7 @@
 
-* {
+.jumbotron h1, .jumbotron .h1, h1, h2, h3, p, li{
   color: navy;
-} /* I can't seem to get the h1 and h3 to turn navy without this???*/
+} /* I can't seem to get the h1 and h3 to turn navy??*/
 
 p,
 li{
