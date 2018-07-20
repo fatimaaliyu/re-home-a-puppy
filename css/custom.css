@@ -1,4 +1,4 @@
-
+/*homepege */
 .jumbotron h1, .jumbotron .h1, h1, h2, h3, p, li{
   color: navy;
 } /* I can't seem to get the h1 and h3 to turn navy??*/
@@ -31,3 +31,52 @@ color: white;
 background-color: navy;
 color:white;
 }
+/*homepege-style ends */
+
+/*carousel-style*/  /*carousel-style*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 30%;
+    margin: auto;
+}
+#myCarousel {
+background-color:#C8C8C8;
+}
+
+/*carousel-style --ends*/
+
+/*featured puppies style */  /*featured puppies style */
+h2 {
+  text-align: left;
+  margin: 0px 0 70px 0px;
+  color:blue;
+}
+
+.container {
+  display: grid;
+  background: navy blue;
+}
+
+.container .div:nth-child(odd){
+  background-color:
+}
+.Leyla-profile{
+  position:absolute;
+  height:500px;
+  width:500px;
+}
+
+.table{
+  height: 400px;
+  width:500px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+  background-color: #3271e7;
+
+}
+.table ul li{  
+  color: white;
+}
+/*featured puppies style--ends */
