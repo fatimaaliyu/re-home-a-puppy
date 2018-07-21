@@ -1,7 +1,7 @@
 
 .jumbotron h1, .jumbotron .h1, h1, h2, h3, p, li{
   color: navy;
-} /* I can't seem to get the h1 and h3 to turn navy??*/
+}
 
 p,
 li{
@@ -17,8 +17,8 @@ li{
   min-height: 300px;
 }
 
-#featured-puppies{
-  background-color: rgb(211,211,211);
+#section-3{
+  background-color: #eee;
   min-height:500px;
 }
 

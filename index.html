@@ -11,10 +11,19 @@
     <div class="jumbotron">
     <div class="container">
       <div id="menu-buttons">
-      <button class='btn btn-lg btn'>Re-home a puppy</button>
-      <button class='btn btn-lg btn'>Featured puppies</button>
-      <button class='btn btn-lg btn'>Register</button>
-      <button class='btn btn-lg btn'>Contact</button>
+        <a href="index.html" class="btn btn-primary btn-lg" role="button">Re-home a puppy</a>
+        <a href="featured-puppies.html" class="btn btn-primary btn-lg" role="button">Featured puppies</a>
+        <a href="register.html" class="btn btn-primary btn-lg" role="button">Register</a>
+        <a href="contact-page.html" class="btn btn-primary btn-lg" role="button">Contact</a>
+      <form class="form-inline" id="search-button">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputAmount">Search</label>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form> 
     </div> <!-- .menu buttons-->
       <div class="row">
         <div class="col-sm-11">
@@ -24,9 +33,9 @@
           </p>
         </div>
         <div class="col-sm-1">
-          <img class= "img-responsive" src='photos/Facebook.png'>
-          <img class= "img-responsive" "vertically align" src='photos/Instagram.png'>
-          <img class= "img-responsive" "vertically align" src='photos/Twitter.png'>
+          <a href="https://www.facebook.com"> <img class= "img-responsive" src='photos/Facebook.png'>
+          <a href="https://www.instagram.com"> <img class= "img-responsive" "vertically align" src='photos/Instagram.png'>
+          <a href="https://www.twitter.com"> <img class= "img-responsive" "vertically align" src='photos/Twitter.png'>
         </div>
       </div> <!-- .row -->
     </div> <!-- .container -->
@@ -57,24 +66,25 @@
     </div> <!-- .section-2 -->
     </div> <!-- .container -->
 
-    <div id= "featured-puppies" class="text-center">
+    <div id= "section-3" class="text-center">
     <div class="container">
       <h2>Featured Puppies</h2>
         <div class="row">
           <div class="col-sm-4">
             <img class= "img-thumbnail" class="img-responsive" src='photos/Leyla.png'>
             <p>Leyla - 3 month old collie </p>
-            <button class='btn btn-lg btn'>Find out more</button>
+            <a href="featured-puppies.html" class="btn btn-large btn" role="button">Find out more</a>
           </div>
-            <div class="col-sm-4">
+          <div class="col-sm-4">
             <img class= "img-thumbnail" class="img-responsive" src='photos/Jack.png'>
             <p>Jack - 4 month old Bichon Frise</p>
-            <button class='btn btn-lg btn'>Find out more</button>
+            <a href="featured-puppies.html" class="btn btn-large btn" role="button">Find out more</a>
           </div>
           <div class="col-sm-4">
             <img class= "img-thumbnail" class="img-responsive" src='photos/Basil.png'>
             <p>Basil - 2 month old Chihuahua</p>
-            <button class='btn btn-lg btn'>Find out more</button>
+            <a href="featured-puppies.html" class="btn btn-large btn" role="button">Find out more</a>
+          </div>
           </div>
     </div> <!-- .row -->
     </div> <!-- .container -->
