@@ -32,22 +32,7 @@ color:white;
 }
 
 /*featured puppies style */  /*featured puppies style */
-/*if I add this code it makes the featured puppies title go in the left side
-h2 {
-  text-align: left;
-  margin: 0px 0 70px 0px;
-  color:blue;
-}
 
-.container {
-  display: grid;
-  background: navy blue;
-}
-
-.container .div:nth-child(odd){
-  background-color:
-}
-*/
 .Leyla-profile{
   position:absolute;
   height:500px;
@@ -61,10 +46,15 @@ h2 {
   padding-bottom: 12px;
   text-align: left;
   color: white;
-  background-color: #3271e7;
+  background-color: navy;
 
 }
 .table ul li{
   color: white;
 }
-/*featured puppies style--ends */
+/*Register page style */
+#register{
+  display: grid;
+  grid-template-columns: 70%;
+  align:center;
+}
