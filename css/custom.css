@@ -47,10 +47,11 @@ color:white;
   text-align: left;
   color: white;
   background-color: navy;
-
 }
+
 .table ul li{
   color: white;
+  font-size: 16px;
 }
 /*Register page style */
 #register{
