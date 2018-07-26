@@ -50,18 +50,14 @@ color:white;
 }
 
 .table ul li{
+  font-size: 16px;
   color: white;
   font-size: 16px;
 }
 /*Register page style */
-#contact-form{
+#register{
   display: grid;
   grid-template-columns: 70%;
-  padding-left:10px;
+  align: center;
   color: navy;
-}
-
-#register p {
-  font-size: 18px;
-  padding-right: 150px;
 }
