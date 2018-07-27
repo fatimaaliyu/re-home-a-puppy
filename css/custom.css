@@ -60,9 +60,13 @@ color:white;
   padding-right: 150px;
 }
 
-#contact-form{
+#contact-form {
   display: grid;
   grid-template-columns: 70%;
   padding-left:15px;
   color: navy;
+}
+
+#submit {
+float: right;
 }
