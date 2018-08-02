@@ -1,47 +1,91 @@
-.jumbotron h1, .jumbotron .h1, h1, h2, h3, p, li{
+.jumbotron h1, .jumbotron .h1, h1, h2, h3, p, li {
   color: navy;
 }
 
-p,
-li{
+p, li {
   font-size: 18;
 }
 
-.jumbotron{
+.jumbotron {
   background-size: cover;
   min-height: 300px;
 }
 
-#section-2{
+#menu-buttons .btn {
+  background-color: navy color: white;
+}
+
+.btn {
+  background-color: navy;
+  color: white;
+}
+
+#section-2 {
   min-height: 300px;
 }
 
-#section-3{
+/*homepage section-3 style */
+
+#section-3 {
   background-color: #eee;
-  min-height:500px;
+  min-height: 500px;
 }
 
-#menu-buttons .btn{
-background-color: navy
-color: white;
+.panel {
+  border: 0px;
+  border-radius: 0 !important;
+  transition: box-shadow 10.s;
+  padding: 0px;
 }
 
-.btn{
-background-color: navy;
-color:white;
+.panel:hover {
+  box-shadow: 2px 0px 40px rgba(0, 0, 0, .2);
 }
 
-/*featured puppies style */  /*featured puppies style */
-
-.Leyla-profile{
-  position:absolute;
-  height:500px;
-  width:500px;
+.panel-footer .btn:hover {
+  border: 1px;
+  background-color: #eee !important;
+  color: #navy;
 }
 
-.table{
+.panel-body {
+  padding: 0px;
+}
+
+.panel-footer {
+  background-color: white !important;
+  padding: 2px;
+  height: 150px;
+}
+
+.panel-footer p {
+  color: #aaa;
+  font-size: 16px;
+}
+
+.panel-footer h3 {
+  font-size: 24px;
+}
+
+.panel-footer .btn {
+  margin: 2px 0;
+}
+
+/*featured puppies page style */
+
+#layla h3 {
+  padding-left: 30px;
+}
+
+.Leyla-profile {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+}
+
+.table {
   height: 400px;
-  width:500px;
+  width: 500px;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -49,27 +93,41 @@ color:white;
   background-color: navy;
 }
 
-.table ul li{
+.table ul li {
   font-size: 16px;
   color: white;
   font-size: 16px;
 }
+
 .table-hover thead tr:hover th, .table-hover tbody tr:hover td {
-    background-color: #0000cc;
+  background-color: #000066;
 }
+
 /*Register page style */
+
 #register p {
   font-size: 18px;
-  padding-right: 150px;
+  padding-right: 500px;
 }
 
 #contact-form {
   display: grid;
-  grid-template-columns: 70%;
-  padding-left:15px;
+  grid-template-columns: 50%;
+  padding-left: 15px;
   color: navy;
 }
 
 #submit {
-float: right;
+  float: right;
+}
+
+/*overriding default bootstrap style for modal buttons*/
+
+#submit .btn:hover {
+  background-color: #000066;
+}
+
+.btn-info:focus, .btn-info.focus {
+  background-color: #000066;
+  border-color: white;
 }

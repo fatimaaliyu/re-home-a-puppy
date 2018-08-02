@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Register</title>
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/custom.css">
   <meta name="viewport" content="width=device-width, initial scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
+
 <body>
 
   <div class="jumbotron">
@@ -28,7 +32,8 @@
             <button type="submit" class="btn btn-primary btn-md">Submit</button>
           </form>
         </div>
-      </div> <!-- .menu buttons-->
+      </div>
+      <!-- .menu buttons-->
       <div class="row">
         <div class="col-sm-11">
           <h1>Re-home a puppy</h1>
@@ -39,57 +44,71 @@
           <a href="https://www.instagram.com"> <img class= "img-responsive" "vertically align" src='photos/Instagram.png'></a>
           <a href="https://www.twitter.com"> <img class= "img-responsive" "vertically align" src='photos/Twitter.png'></a>
         </div>
-      </div> <!-- .row -->
-    </div> <!-- .container -->
-  </div> <!-- .jumbotron -->
-
+      </div>
+      <!-- .row -->
+    </div>
+    <!-- .container -->
+  </div>
+  <!-- .jumbotron -->
+  <!--register-->
   <div class="container">
-  <div id="register">
-  <h1>Register</h1>
-  <p>The first step towards re-homing one of puppies is the register with us.
-    Once you have completed the form below one of our team will contact you for an
-     initial conversation and arrange a home visit.</p>
-   </div>
+    <div id="register">
+      <h1>Register</h1>
+      <p>The first step towards re-homing one of puppies is to register with us. Once you have completed the form below one of our team will contact you for an initial conversation and arrange a home visit.</p>
+    </div>
 
-<div id="contact-form">
-  <form class="form-horizontal" action="/action_page.php" display="inline">
+    <div id="contact-form">
+      <form class="form-horizontal" display="inline">
 
-      <div class="form-group">
-        <label for="usr">Name:</label>
-        <input type="text" class="form-control" id="usr">
-      </div>
+        <div class="form-group">
+          <label for="usr">Name:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
 
-      <div class="form-group">
-        <label for="usr">Surname:</label>
-        <input type="text" class="form-control" id="usr">
-      </div>
+        <div class="form-group">
+          <label for="usr">Surname:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
 
-      <div class="form-group">
-        <label class="control-label" for="email">Email:</label>
+        <div class="form-group">
+          <label class="control-label" for="email">Email:</label>
           <input type="email" class="form-control" id="email" name="email">
-      </div>
+        </div>
 
-      <div class="form-group">
-        <label for="usr">Telephone Number:</label>
-        <input type="text" class="form-control" id="usr">
-      </div>
+        <div class="form-group">
+          <label for="usr">Telephone Number:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
 
-      <div class="form-group">
-        <label for="usr">London Borough:</label>
-        <input type="text" class="form-control" id="usr">
-      </div>
+        <div class="form-group">
+          <label for="usr">London Borough:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="usr">Puppy interested if applicable:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
 
-      <div class="form-group">
-        <label for="usr">Puppy interested if applicable:</label>
-        <input type="text" class="form-control" id="usr">
-      </div>
+        <div id="submit" class="form-group">
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Registration complete</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Thank you for registering with us.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
 
-      <div id="submit" class="form-group">
-        <button type="submit" class="btn btn-default btn-lg">Submit</button>
-      </div>
-    </div><!--contact-from-->
-  </form><!--form-->
-</div><!--container-->
-
+            </div>
+          </div>
+        </div>
 </body>
+
 </html>
